@@ -4,7 +4,7 @@
   "description": "🌐✨ Share your localhost with friends. Yes, really. One command, one link, zero accounts.",
   "type": "module",
   "bin": {
-    "vibe": "./bin/vibe.js"
+    "vibe": "bin/vibe.js"
   },
   "files": [
     "bin",
