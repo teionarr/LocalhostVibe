@@ -1,0 +1,51 @@
+{
+  "name": "localhost-vibe",
+  "version": "1.0.0",
+  "description": "🌐✨ Share your localhost with friends. Yes, really. One command, one link, zero accounts.",
+  "type": "module",
+  "bin": {
+    "vibe": "./bin/vibe.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "public",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node bin/vibe.js",
+    "demo": "node test/dummy-server.js"
+  },
+  "keywords": [
+    "localhost",
+    "tunnel",
+    "share",
+    "ngrok",
+    "cloudflared",
+    "localtunnel",
+    "vibe",
+    "vibecoding"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "teionarr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teionarr/LocalhostVibe.git"
+  },
+  "homepage": "https://github.com/teionarr/LocalhostVibe#readme",
+  "bugs": {
+    "url": "https://github.com/teionarr/LocalhostVibe/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cloudflared": "^0.7.1",
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^3.0.3",
+    "localtunnel": "^2.0.2",
+    "open": "^10.1.0",
+    "picocolors": "^1.1.1",
+    "qrcode": "^1.5.4"
+  }
+}

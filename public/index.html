@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LocalhostVibe · control room</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="aurora"></div>
+
+    <main class="wrap">
+      <header class="top">
+        <div class="brand">
+          <span class="logo">🌐✨</span>
+          <div>
+            <h1>LocalhostVibe</h1>
+            <p class="sub">control room · <span id="session">…</span></p>
+          </div>
+        </div>
+        <div class="status">
+          <span id="dot" class="dot"></span>
+          <span id="status-text">connecting…</span>
+        </div>
+      </header>
+
+      <section class="card link-card">
+        <div class="link-main">
+          <p class="label">your friends can open this</p>
+          <a id="link" class="link" href="#" target="_blank" rel="noopener">…</a>
+          <div class="actions">
+            <button id="copy" class="btn primary">📋 Copy &amp; share the vibe</button>
+            <button id="open" class="btn ghost">↗ open it</button>
+          </div>
+          <p class="meta">
+            via <span id="provider">…</span> ·
+            <span id="mode">…</span>
+          </p>
+        </div>
+        <div class="qr">
+          <img id="qr" alt="scan to open" />
+          <span>scan me</span>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="card stat vibe">
+          <span class="stat-label">vibe score</span>
+          <span id="vibe" class="stat-num">0</span>
+        </div>
+        <div class="card stat">
+          <span class="stat-label">visits</span>
+          <span id="visits" class="stat-num">0</span>
+        </div>
+        <div class="card stat">
+          <span class="stat-label">friends</span>
+          <span id="friends" class="stat-num">0</span>
+        </div>
+        <div class="card stat">
+          <span class="stat-label">uptime</span>
+          <span id="uptime" class="stat-num">0s</span>
+        </div>
+      </section>
+
+      <section class="card feed-card">
+        <div class="feed-head">
+          <h2>live feed</h2>
+          <span class="hint">friends show up here the moment they connect</span>
+        </div>
+        <ul id="feed" class="feed">
+          <li class="empty">no one's here yet — go send that link 💜</li>
+        </ul>
+      </section>
+
+      <footer class="foot">
+        <span id="vibe-line">the localhost stays in the room. the link does not.</span>
+        <span class="kbd-hint">psst… try the <span class="kbd">↑↑↓↓←→←→ B A</span></span>
+      </footer>
+    </main>
+
+    <div id="confetti" class="confetti" aria-hidden="true"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
