@@ -13,7 +13,7 @@ I did customer discovery (asked four people in a Discord). I sized the TAM (mill
 Today, after tireless engineering:
 
 ```bash
-npx localhost-vibe share 3000
+npx localhostvibe share 3000
 ```
 
 One command. Your localhost is now visible to your friends, your mom, and the investor who said *"show me when it's live."*
@@ -24,19 +24,19 @@ Fully open source. Infrastructure for human connection should belong to everyone
 
 ---
 
-## Install (the actual moat)
-
-Until we close our Series A and buy the npm namespace a yacht, install straight from GitHub:
+## Install
 
 ```bash
 # global command, available everywhere
-npm install -g github:teionarr/LocalhostVibe
+npm install -g localhostvibe
 
 # or no-install, maximum spontaneity
-npx github:teionarr/LocalhostVibe share 3000
+npx localhostvibe share 3000
 ```
 
 Now `vibe` is a real command on your machine. We ship serious software here.
+
+<sub>Prefer the source? `npm install -g github:teionarr/LocalhostVibe` works too.</sub>
 
 ## Use it
 
