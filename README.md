@@ -1,4 +1,4 @@
-# localhostvibe 🌐✨
+# localhostvibe 🌐✨ (Software-as-a-Meme)
 
 ### Introducing `localhostvibe`.
 
